@@ -1,0 +1,83 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #6B8AB1;
+  
+}
+
+/* Navbar Styles */
+.navbar {
+    width: 100%;
+    background-color: #5A6EA9;
+    overflow: auto;
+  }
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: underline;
+    font-size: 17px;
+  }
+
+
+/* Image Style*/
+img {
+  display: block;
+  margin: 10px auto;
+  height: 500px;
+  width: 400px;
+}
+
+/* AboutMe Style*/
+.aboutMe {
+  text-align: center;
+}
+
+/* Contact Me Styles*/
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid #DDAF94;
+  border-radius: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+button {
+  height: 40px;
+  width: 120px;
+  background-color: #4F4846;
+  color: #FDF8F5;
+}
+
+/* Footer Styles */
+footer {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    background-color: #5A6EA9;
+    color: var(--accentColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
