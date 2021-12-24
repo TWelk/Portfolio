@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -15,6 +16,8 @@ body {
     width: 100%;
     background-color: #5A6EA9;
     overflow: auto;
+    display: flex;
+    justify-content: flex-end;
   }
 
 .navbar a {
@@ -25,6 +28,32 @@ body {
     text-decoration: underline;
     font-size: 17px;
   }
+
+  .name {
+    display: flex;
+    justify-self: flex-start;
+  }
+
+
+.skills {
+  display: inline-block;
+  width: 28%;
+  padding: 30px 10px;
+  margin: 2%;
+  text-align: center;
+  box-shadow: 12px 12px 2px 1px rgba(20, 20, 22, 0.2);
+  background: #fff;
+}
+
+.skills img {
+  height: 50px;
+  margin: 5px;
+}
+
+.skills small {
+  padding-top: 10px;
+  display: block;
+}
 
   /* Navbar links on mouse-over */
 .navbar a:hover {
@@ -37,26 +66,74 @@ body {
 }
 
 /* Image Style*/
-img {
+.proPic {
   display: block;
   margin: 10px auto;
   height: 500px;
   width: 400px;
 }
 
-/* AboutMe Style*/
+.projects {
+  display: inline-block;
+  height: 25%;
+  width: 100%;
+  padding: 4px;
+  margin: 0 0 5px 5px;
+}
+
+.projectContainer2 {
+  display: inline-flex;
+}
+
+.secProjts {
+  width: 25%;
+}
+
 .aboutMe {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.secHead {
+  display: flex;
+  justify-content: center;
+}
+
+.resBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.resBtn a {
+  color: #FDF8F5;
+}
+
+/* AboutMe Style*/
+.ContactMe {
+  display: grid;
+  text-align: left;
+ /* position: fixed;*/
+  bottom: 0;
+  margin: 40px 0;
+  white-space: pre;
+}
+
+.ContactMe h2 {
+  margin: 0 6%;
 }
 
 /* Contact Me Styles*/
 form {
-  /* Center the form on the page */
-  margin: 0 auto;
+  margin: 0 5%;
   width: 500px;
   padding: 10px;
-  border: 5px solid #DDAF94;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  white-space: pre;
 }
 
 label {
@@ -65,23 +142,36 @@ label {
 }
 
 button {
+  margin: 10px 10px 10px 0px;
   height: 40px;
   width: 120px;
   background-color: #4F4846;
   color: #FDF8F5;
 }
 
-/* Footer Styles */
+input {
+  border: 5px solid black;
+  height: 30px;
+}
+
+textarea {
+  resize: vertical;
+  border: 5px solid black;
+}
+
+/* Height of the footer*/ 
 footer {
-    width: 100%;
-    height: 50px;
-    margin: auto;
-    background-color: #5A6EA9;
-    color: var(--accentColor);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+ /* position: fixed;*/
+  padding: 0 5%;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: #5A6EA9;
+  color: var(--accentColor);
+  display: flex;
+}
 
   /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) {

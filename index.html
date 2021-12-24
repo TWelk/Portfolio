@@ -3,57 +3,109 @@
     <head>
         <title>My Portfolio</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="./Assets/CSS/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./Assets/CSS/style.css">
     </head>
 
     <body>
         <header>
             <nav class="navbar">
-                    <a href="https://github.com/TWelk">Github</a>
-                    <a class="active" href="https://twelk.github.io/Portfolio/">Portfolio</a>
-                    <a href="https://twelk.github.io/prework-about-me/">More About Me</a>
+                <span class="name">Tyler Welker</span>    
+                <a href="https://github.com/TWelk">Github</a>
+                <a class="active" href="https://twelk.github.io/Portfolio/">Portfolio</a>
+                <a href="https://twelk.github.io/prework-about-me/">More About Me</a>
             </nav>
         </header>
         
         <main>
-            <section class="aboutMe">
-                <h1>About Me</h1>
-            
-                <p>My name is Tyler Welker. I am currently going through a Full Stack web development boot camp.</p>
-            </section>   
+
             <figure>
-                <img src="./Assets/Images/JPEG_20200201_222353.jpg" alt="Picture of Tyler">
+                <img class="proPic" src="./Assets/Images/JPEG_20200201_222353.jpg" alt="Picture of Tyler">
             </figure>
-            
+
             <section class="aboutMe">
-                <h2>Contact Me</h2>
-
-                <form>
-                    <ul>
-                        <li>
-                            <label class="text-right" for="name">Name:</label>
-                            <input type="text" id="name" name="user-name">
-                        </li>
-
-                        <li>
-                            <label class="text-right" for="email">Email:</label>
-                            <input type="text" id="email" name="user-email">
-                        </li>
-                    </ul>
-
-                    <div class="text-center">
-                        <button type="submit">SEND</button>
-                    </div>
-
-                </form>
-
+                <p>Full Stack Web Developer entering the Web Engineer industry, looking to work with teams on building new and innovative applications.</p>
             </section>
+            
+            <div class="secHead">
+                <h1>Skills/Attributes</h1>
+            </div>
+                
+            <div class="skills">
+                <img src="./Assets/Images/DB.jpg" alt="databases">
+                <p><b>Database Applications</b></p>
+                <small>Microsoft Access</small> 
+            </div>
 
-        </main>
+            <div class="skills">
+                <img src="./Assets/Images/process-improvement-1.jpg" alt="Process Improvement">
+                <p><b>Process Improvement</b></p>
+                <small>Continuous Improvement</small> 
+            </div>
+
+            <div class="skills">
+                <img src="./Assets/Images/support.jpg" alt="IT Customer Support">
+                <p><b>IT Customer Support</b></p>
+                <small>Assist with fixing software issues</small> 
+            </div>
+
+            <div class="skills">
+                <img src="./Assets/Images/diagnostic.jpg" alt="PC Hardware and Diagnostics">
+                <p><b>PC Hardware and Diagnostics</b></p>
+                <small>Troubleshoot and determine hardware issues and apply fixes</small> 
+            </div>
+
+            <div class="skills">
+                <img src="./Assets/Images/Problem Solving.png" alt="Problem Solving">
+                <p><b>Problem Solving</b></p>
+                <small>Capable of critical thinking and solving any problem thrown at me.</small> 
+            </div>
+
+            <div class="skills">
+                <img src="./Assets/Images/teamwork.jpg" alt="Teamwork">
+                <p><b>Teamwork</b></p>
+                <small>Capable of working in both small and large groups inorder complete tasks</small> 
+            </div>
+            
+            <section class="resBtn">
+                <button type="button"><a href="">Résumé</a></button>
+            </section>
+            
+            <section>
+
+                <div>
+                    <a href="https://twelk.github.io/PreWorkMod4/"><img class="projects" src="./Assets/Images/CoheedBanner.png" alt="Project1"></a>
+                    <div class="projectContainer2">
+                        <img class="secProjts" src="./Assets/Images/ComingSoon.jpg" alt="Project2">
+                        <img class="secProjts" src="./Assets/Images/placeholder.png" alt="Project3">
+                        <img class="secProjts" src="./Assets/Images/ComingSoon.jpg" alt="Project4">
+                        <img class="secProjts" src="./Assets/Images/placeholder.png" alt="Project5">
+                    </div>
+                </div>
+
+                <div class="ContactMe">
+                    <h2>Contact Me</h2>
+
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user-name" placeholder="Marry Samsonight">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="user-email" placeholder="MSamsonight@gmail.com">
+                        <label for="message">Phone Number:</label>
+                        <input type="tel" id="phone" name="user-phone" placeholder="(555)867-5309" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                        <label for="message">Message:</label>
+                        <textarea name="Message" id="MsgBox" cols="30" rows="10"></textarea>
+                        <button type="submit">SEND</button>
+                    </form>
+                </div>
+            </section>
         
+        </main>
+
         <footer>
             <p><a href="https://www.linkedin.com/in/tyler-welker-b5551847/" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i></a></p>
+            <p><a href="https://github.com/TWelk" target="_blank"><i class="fa fa-fw fa-github"></i></a></p>
             <p><a href="https://twitter.com/TylerWelker11" target="_blank"><i class="fa fa-fw fa-twitter"></i></a></p>
             <p style="display: block;"><i class="fa fa-fw fa-copyright "></i>2021 Tyler Welker</p>
         </footer>
