@@ -202,18 +202,14 @@ footer {
 }
 
   /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-@media screen and (max-width: 500px) {
-    .navbar a {
-      float: none;
-      display: block;
-    }
-  }
-
   @media screen and (max-width: 900px) {
     main
     {
       width: 100%;
     }
+    .navbar a {
+      float: none;
+      display: block;
   }
 
   @media screen and (max-width: 768px) {
@@ -221,6 +217,9 @@ footer {
     {
       width: 100%;
     }
+    .navbar a {
+      float: none;
+      display: block;
   }
 
   @media screen and (max-width: 600px) {
@@ -228,6 +227,9 @@ footer {
     {
       width: 100%;
     }
+    .navbar a {
+      float: none;
+      display: block;
   }
 
   @media screen and (max-width: 480px) {
@@ -235,6 +237,9 @@ footer {
     {
       width: 100%;
     }
+    .navbar a {
+      float: none;
+      display: block;
   }
 
   @media screen and (max-width: 320px) {
@@ -242,4 +247,7 @@ footer {
     {
       width: 100%;
     }
+    .navbar a {
+      float: none;
+      display: block;
   }
