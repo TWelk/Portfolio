@@ -101,8 +101,9 @@ body {
 }
 
 .aboutMe {
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  font-size: xx-large;
+  margin: 0 50px 30px 50px;
 }
 
 .secHead {
