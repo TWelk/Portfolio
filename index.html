@@ -11,10 +11,12 @@
     <body>
         <header>
             <nav class="navbar">
-                <span class="name">Tyler Welker</span>    
-                <a href="https://github.com/TWelk">Github</a>
-                <a class="active" href="https://twelk.github.io/Portfolio/">Portfolio</a>
-                <a href="https://twelk.github.io/prework-about-me/">More About Me</a>
+                <span class="name">Tyler Welker</span>
+                <span> 
+                    <a href="https://github.com/TWelk">Github</a>
+                    <a href="https://twelk.github.io/prework-about-me/">More About Me</a>
+                    <a class="active" href="#contact">Contact</a>
+                </span>
             </nav>
         </header>
         
@@ -80,16 +82,17 @@
             <section>
 
                 <div>
-                    <a href="https://twelk.github.io/PreWorkMod4/"><img class="projects" src="./Assets/Images/CoheedBanner.png" alt="Project1"></a>
+                    <a href="https://twelk.github.io/PreWorkMod4/"><img class="projects" src="./Assets/Images/CoheedBanner.png" alt="Project1" title="Click Me"></a>
                     <div class="projectContainer2">
-                        <img class="secProjts" src="./Assets/Images/ComingSoon.jpg" alt="Project2">
-                        <img class="secProjts" src="./Assets/Images/placeholder.png" alt="Project3">
-                        <img class="secProjts" src="./Assets/Images/ComingSoon.jpg" alt="Project4">
-                        <img class="secProjts" src="./Assets/Images/placeholder.png" alt="Project5">
+                        <img class="secProjts" src="./Assets/Images/ComingSoon.jpg" alt="Project2" title="Coming Soon">
+                        <img class="secProjts" src="./Assets/Images/placeholder.png" alt="Project3" title="Coming Soon">
+                        <img class="secProjts" src="./Assets/Images/ComingSoon.jpg" alt="Project4" title="Coming Soon">
+                        <img class="secProjts" src="./Assets/Images/placeholder.png" alt="Project5" title="Coming Soon">
                     </div>
                 </div>
+
                 <div class="CM">
-                    <div class="ContactMe">
+                    <div class="ContactMe" id="contact">
                         <h2>Contact Me</h2>
 
                         <form>
@@ -98,17 +101,19 @@
                             <label for="email">Email:</label>
                             <input type="email" id="email" name="user-email" placeholder="MSamsonight@gmail.com">
                             <label for="message">Phone Number:</label>
-                            <input type="tel" id="phone" name="user-phone" placeholder="(555)867-5309" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                            <input type="tel" id="phone" name="user-phone" placeholder="1-555-867-5309" pattern="1[0-9]{3}[0-9]{3}[0-9]{4}">
                             <label for="message">Message:</label>
                             <textarea name="Message" id="MsgBox" cols="30" rows="10"></textarea>
                             <button type="submit">SEND</button>
                         </form>
                     </div>
+
                     <div class="contactMeFor">
                         <span>Employment</span>
                         <span>Freelance</span>
                         <span>Consulting</span>
                     </div>
+
                 </div>
             </section>
         
