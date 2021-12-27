@@ -264,6 +264,12 @@
     }
   }
 
+  @media screen and (max-width: 452px) {
+    .navbar a {
+      font-size: x-small;
+    }  
+  }
+
   @media screen and (max-width: 320px) {
     .navbar a {
       font-size: x-small;
