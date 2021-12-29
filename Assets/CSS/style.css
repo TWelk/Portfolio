@@ -136,9 +136,13 @@
    width: 100%;
   }
 
-  .secProjts, .secProjts img {
+  .secProjts {
     width: inherit;
   }
+
+ .proImgs {
+   width: inherit;
+}
 /* End Project Styles */
 
 /* Begin Contact Styles */
