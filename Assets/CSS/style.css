@@ -275,14 +275,17 @@
     .navbar a {
       font-size: x-small;
     }  
-  }
-
- /* @media screen and (max-width: 479px) {
+    
+    .name {
+      font-size: small;
+      text-align: center;
+    }
+   
     .proPic {
-      width: 400px;
-      height: 400px;
+      width: 90%;
+      height: 50%;
     }  
-  }*/
+  }
 
   @media screen and (max-width: 320px) {
     .navbar a {
