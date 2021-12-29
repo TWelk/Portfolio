@@ -270,7 +270,7 @@
     }  
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 479px) {
     .proPic {
       width: 400px;
       height: 400px;
