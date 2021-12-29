@@ -256,7 +256,7 @@
 
   @media screen and (max-width: 480px) {
     .proPic {
-      width: 100%;
+      width: 400px;
       height: 400px;
     }
     .contactMeFor {
@@ -277,12 +277,12 @@
     }  
   }
 
-  @media screen and (max-width: 479px) {
+ /* @media screen and (max-width: 479px) {
     .proPic {
       width: 400px;
       height: 400px;
     }  
-  }
+  }*/
 
   @media screen and (max-width: 320px) {
     .navbar a {
