@@ -130,12 +130,14 @@
   }
 
   .projectContainer2 {
-    display: inline-flex;
+    display: flex;
     margin: 0 5px;
+   flex-direction: row;
+   width: 100%;
   }
 
   .secProjts {
-    width: 25%;
+    width: inherit;
   }
 /* End Project Styles */
 
