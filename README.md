@@ -11,12 +11,13 @@ This is a portfolio to display my capabilities and projects created and a way to
     - Enterprise section of portfolio page
     - Projects section of portfolio page
     - Cantact section of portfolio page
+- A button to view my resume
+- Project attatch include:
+    - A Band Tribute Website
+    - Rock Paper Scissors Game
+    - Password Generator
+- Contact section
 
-### Projects
-Project attatch include:
-- A Band Tribute Website
-- Rock Paper Scissors Game
-- Password Generator
 
 ## Preview
 ![DemoVideo](./Assets/Images/PortfolioPreview.gif)
