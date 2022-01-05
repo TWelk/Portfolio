@@ -14,6 +14,12 @@
     background-color: #6B8AB1;
     
   }
+
+  header {
+    top: 0;
+    position: sticky;
+  }
+
 /* End Global Styles */
 
 /* Navbar Styles */
