@@ -22,6 +22,8 @@
       overflow: auto;
       display: flex;
       justify-content: space-between;
+      width: 100%;
+      top: 0;
     }
 
   .navbar a {
@@ -50,6 +52,7 @@
     margin-left: 5%;
     font-size: x-large;
   }
+
 /* End Navbar Styles*/
 
 /* Begin About Me Style */
@@ -121,6 +124,12 @@
 /* End About Me Styles */
 
 /* Begin Project Styles */
+  #projects {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+  }
+
   .projects {
     display: inline-block;
     height: 25%;
@@ -236,6 +245,22 @@
   @media screen and (max-width: 768px) {
     main {
       width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 626px) {
+    .navbar {
+      flex-direction: column;
+    }
+
+    .name {
+      justify-content: center;
+      margin-top: 2%;
+    }
+
+    .myLinks{
+      display: flex;
+      justify-content: center;
     }
   }
 
